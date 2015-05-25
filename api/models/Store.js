@@ -25,7 +25,7 @@ module.exports = {
             type: "string"
         },
         address: {
-            type: "string"
+            type: "text"
         },
         lat: {
             type: "string"
@@ -75,6 +75,21 @@ module.exports = {
         },
         licenseimage: {
             type: "string"
+        },
+        rating: {
+            collection:"rating",
+            via:"store"
+        },
+        callrating: {
+            collection:"callrating",
+            via:"storeofcallrating"
+        },
+        servicereport: {
+            collection:"servicereport",
+            via:"storeofservicereport"
+        },
+        holidaycalender: {
+            model: 'holidaycalender'
         }
       
 //        pincode: {
