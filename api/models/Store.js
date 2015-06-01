@@ -34,7 +34,7 @@ module.exports = {
             type: "string"
         },
         pincode: {
-            model: 'pincode'
+            type: "string"
         },
         status: {
             type: 'string',

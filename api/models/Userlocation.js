@@ -16,7 +16,16 @@ module.exports = {
             type: 'string'
         },
         pincode: {
-            model: 'pincode'
+            type: 'string'
+        },
+        state: {
+            type: 'string'
+        },
+        district: {
+            type: 'string'
+        },
+        country: {
+            model: 'country'
         },
         user: {
             model: "user"

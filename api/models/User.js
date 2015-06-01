@@ -37,7 +37,19 @@ module.exports = {
             type: 'date'
         },
         pincode: {
-            model: 'pincode'
+            type: 'string'
+        },
+        google: {
+            type: 'string'
+        },
+        twitter: {
+            type: 'string'
+        },
+        facebook: {
+            type: 'string'
+        },
+        forgotpassword:{
+            type:"string"
         },
         accesslevel: {
             type: 'string',

@@ -26,12 +26,6 @@ module.exports = {
             type: 'string',
             enum: ['warranty', 'amc']
         },
-        purchasemonth: {
-            type: "integer"
-        },
-        purchaseyear: {
-            type: "integer"
-        },
         purchasedate: {
             type: "integer"
         },
