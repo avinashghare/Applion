@@ -17,7 +17,7 @@ module.exports = {
         timelyrating: {
             type: "string"
         },
-        servicechangesrating: {
+        servicechargesrating: {
             type: "string"
         },
         servicequalityrating: {
