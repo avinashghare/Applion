@@ -20,7 +20,16 @@
  */
 
 module.exports.connections = {
-
+    
+'my favorite mandrill account': {
+    adapter: 'sails-mandrill',
+    apiKey: process.env.M7i8XwHxFE4YacziFbInXw, // the api key for your mandrill account 
+    from: {
+//      name: 'Default sender to use ( can be overriden in options to .send() )',
+      name: 'Applion',
+      email: 'avinash@wohlig.com'
+    }
+  },
   /***************************************************************************
   *                                                                          *
   * Local disk storage for DEVELOPMENT ONLY                                  *

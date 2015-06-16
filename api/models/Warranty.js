@@ -27,14 +27,16 @@ module.exports = {
             enum: ['warranty', 'amc']
         },
         purchasedate: {
-            type: "integer"
+            type: "date"
         },
         billno: {
             type: "string"
         },
-      
+        images: {
+            type: "array"
+        },
         store: {
-            model: 'store'
+            model: "store"
         },
         includes: {
             type: 'string',

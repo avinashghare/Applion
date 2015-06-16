@@ -33,6 +33,15 @@ module.exports = {
         long: {
             type: "string"
         },
+        district: {
+            type: "string"
+        },
+        state: {
+            type: "string"
+        },
+        country: {
+            model: "country"
+        },
         pincode: {
             type: "string"
         },

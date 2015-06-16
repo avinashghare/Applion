@@ -6,6 +6,12 @@
  */
 
 module.exports = {
-	
+	searchdata: function (req, res) {
+//        var data = req.allParams();
+        var printda = function (data) {
+            res.json(data);
+        }
+        Appliance.searchdata(req.body, printda);
+    }
 };
 

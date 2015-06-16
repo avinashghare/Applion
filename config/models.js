@@ -18,6 +18,7 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
    connection: 'someMongodbServer',
+    connections: 'my favorite mandrill account',
 
   /***************************************************************************
   *                                                                          *

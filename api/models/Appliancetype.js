@@ -19,9 +19,28 @@ module.exports = {
             type: 'string'
         },
         brand: {
-            collection:"brand",
-            via:"appliancetype"
+            model:"brand"
         }
-  }
+  },
+//    upload: function (str,data,callback) {
+//        console.log(str);
+//        Appliancetype.update({
+//            id: str.id
+//        },{
+//            icon: data[0].fd
+//        }).exec(function (error1, updated) {
+//            if (error1) {
+//                console.log(error1);
+//                callback(error1);
+//                //                        callback(error1);
+//            }
+//            else
+//            {
+//                callback(updated);
+//                console.log(updated);
+//            }
+//        });
+//        //                console.log(found);
+//    }
 };
 
